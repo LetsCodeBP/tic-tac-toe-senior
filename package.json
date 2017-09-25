@@ -4,7 +4,7 @@
   "description": "A simple solution for tic-tac-toe",
   "main": "index.js",
   "scripts": {
-    "test": "ava *.test.js",
+    "test": "ava --esnext *.test.js",
     "start": "http-server ."
   },
   "repository": {
@@ -19,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/LetsCodeBP/tic-tac-toe-senior/issues"
   },
-  "homepage": "https://github.com/LetsCodeBP/tic-tac-toe-senior#readme"
+  "homepage": "https://github.com/LetsCodeBP/tic-tac-toe-senior#readme",
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }

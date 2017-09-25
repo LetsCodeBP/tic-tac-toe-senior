@@ -1,0 +1,22 @@
+{
+  "name": "tic-tac-toe-senior",
+  "version": "0.0.1",
+  "description": "A simple solution for tic-tac-toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetsCodeBP/tic-tac-toe-senior.git"
+  },
+  "keywords": [
+    "tic-tac-toe"
+  ],
+  "author": "Tamas Kokeny <tamas.kokeny@greenfoxacademy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LetsCodeBP/tic-tac-toe-senior/issues"
+  },
+  "homepage": "https://github.com/LetsCodeBP/tic-tac-toe-senior#readme"
+}

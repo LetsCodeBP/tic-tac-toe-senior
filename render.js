@@ -2,7 +2,8 @@
 
 export default function renderGame(gameRoot, gameState) {
   const mainTable = document.createElement('table')
-  gameState.forEach(row => renderRow(mainTable, row))
+  gameState.matrix.forEach(row => renderRow(mainTable, row))
+  gameRoot.innerHTML = ''
   gameRoot.appendChild(mainTable)
 }
 
